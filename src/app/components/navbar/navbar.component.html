@@ -1,0 +1,57 @@
+<nav>
+  <div class="container text-center smaller">
+    <div class="row">
+      <div class="col-2 pt-3"></div>
+      <div class="col-8">
+        <h1 class="fw-bolder pt-3" (click)="goToHome()" style="cursor: pointer">
+          CLOTHESSTORE
+        </h1>
+      </div>
+      <div class="col-2 pt-3"><mat-icon>shopping_cart</mat-icon></div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <app-search (search)="searchData($event)"></app-search>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-3 mb-3 text-center media">
+    <div class="row">
+      <div class="col-md-3 col-lg-3">
+        <h1 class="fw-bolder pt-3" (click)="goToHome()" style="cursor: pointer">
+          CLOTHESSTORE
+        </h1>
+      </div>
+      <div class="col-md-6 col-lg-6">
+        <app-search (search)="searchData($event)"></app-search>
+      </div>
+      <div class="col-md-3 col-lg-3 log-in">
+        <div class="row pt-3">
+          <div class="col-3 pt-1"><mat-icon>shopping_cart</mat-icon></div>
+          <div class="col-3 pt-1"><mat-icon>perm_identity</mat-icon></div>
+          <div class="col-4">
+            <button mat-stroked-button class="btn">Iniciar sesión</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sub-navbar media">
+    <div
+      class="d-flex justify-content-around"
+      style="width: 60%; margin-left: 20%"
+    >
+      <p class="fw-bold">Hombre</p>
+      |
+      <p class="fw-bold">Mujer</p>
+      |
+      <p class="fw-bold">Junior</p>
+      |
+      <p class="fw-bold">Niños</p>
+      |
+      <p class="fw-bold">Accesorios</p>
+      |
+      <p class="fw-bold">Ofertas</p>
+    </div>
+  </div>
+</nav>

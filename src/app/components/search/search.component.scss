@@ -1,0 +1,15 @@
+.search-bar {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.search {
+  cursor: pointer;
+}
+
+/* focused color */
+::ng-deep
+  .mat-form-field-appearance-outline.mat-focused
+  .mat-form-field-outline-thick {
+  color: #000;
+}
